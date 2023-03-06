@@ -1,0 +1,28 @@
+#image {
+    width:150px ;
+height:150px;
+margin: 0;}
+
+
+ /* box code */
+ @keyframes animatedSquare {
+    0%   {background-color: rgb(110, 227, 21);}
+    25%  {background-color: rgb(217, 217, 51);}
+    50%  {background-color: rgb(31, 31, 199);}
+    100% {background-color: rgb(220, 59, 204);}
+    border: 50%;
+  }
+  
+  div:hover {
+    width: 150px;
+    height: 150px;
+    background-color: grey;
+    animation-name: animatedSquare;
+    animation-duration: 2s;
+    animation-iteration-count:infinite; 
+    transform: translate(150%);
+
+    
+  }
+
+  
