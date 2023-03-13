@@ -11,16 +11,20 @@ margin: 0;}
     50%  {background-color: rgb(31, 31, 199);}
     100% {background-color: rgb(220, 59, 204);}
     border: 50%;
-  }
+
+}
+
+body{margin: 0%;}
   
   div:hover {
     width: 150px;
     height: 150px;
     background-color: grey;
     animation-name: animatedSquare;
-    animation-duration: 2s;
-    animation-iteration-count:infinite; 
-    transform: translate(150%);
+    animation-duration: 5s;
+    animation-iteration-count:2%; 
+    transform: translate(50%);
+    margin: 0% 0% 0% 0% ;
 
     
   }
